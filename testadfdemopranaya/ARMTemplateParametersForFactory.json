@@ -1,0 +1,12 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "testadfdemopranaya"
+		},
+		"SharingSelfIR_properties_typeProperties_linkedInfo_resourceId": {
+			"value": "/subscriptions/85f3cdf2-fdd3-40a3-b1a0-0a6163e2bd60/resourcegroups/DemoService/providers/Microsoft.DataFactory/factories/adfdemopranaya/integrationruntimes/integrationRuntimeSelfHosted"
+		}
+	}
+}
