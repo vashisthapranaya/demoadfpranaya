@@ -7,6 +7,10 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "testadfdemopranaya"
 		},
+		"AzureBlobStorage1_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorage1'"
+		},
 		"SharingSelfIR_properties_typeProperties_linkedInfo_resourceId": {
 			"type": "string",
 			"defaultValue": "/subscriptions/85f3cdf2-fdd3-40a3-b1a0-0a6163e2bd60/resourcegroups/DemoService/providers/Microsoft.DataFactory/factories/adfdemopranaya/integrationruntimes/integrationRuntimeSelfHosted"
@@ -37,6 +41,9 @@
 				"parameters": {
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
+					},
+					"AzureBlobStorage1_connectionString": {
+						"value": "[parameters('AzureBlobStorage1_connectionString')]"
 					},
 					"SharingSelfIR_properties_typeProperties_linkedInfo_resourceId": {
 						"value": "[parameters('SharingSelfIR_properties_typeProperties_linkedInfo_resourceId')]"

@@ -5,6 +5,9 @@
 		"factoryName": {
 			"value": "testadfdemopranaya"
 		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
 		"SharingSelfIR_properties_typeProperties_linkedInfo_resourceId": {
 			"value": "/subscriptions/85f3cdf2-fdd3-40a3-b1a0-0a6163e2bd60/resourcegroups/DemoService/providers/Microsoft.DataFactory/factories/adfdemopranaya/integrationruntimes/integrationRuntimeSelfHosted"
 		}
